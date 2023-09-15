@@ -1,0 +1,142 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+  /* overflow: hidden; */
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 25px;
+  color: aliceblue;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.result {
+  font-size: 20px;
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.circle-result {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.num {
+  font-size: 50px;
+  font-weight: 600;
+}
+.other {
+  font-size: 15px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.description {
+  padding: 0px 30px 20px;
+  text-align: center;
+}
+
+.great {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.summary {
+  width: 300px;
+  height: 400px;
+  /* background: hsl(0, 20%, 97%); */
+  border-radius: 24px;
+  box-shadow: 3px 3px 7px 7px hsl(241, 100%, 89%, 0.2);
+}
+
+#summ {
+  margin: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.box {
+  display: flex;
+  margin: 15px;
+  height: 45px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.number {
+  text-align: end;
+  width: 100%;
+  padding: 25px;
+}
+
+.icon {
+  height: 20px;
+  font-weight: 500;
+}
+
+.name {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#red {
+  background: hsla(0, 100%, 67%, 0.1);
+}
+#yellow {
+  background: hsla(43, 100%, 67%, 0.1);
+}
+#green {
+  background: hsla(121, 100%, 67%, 0.1);
+}
+#blue {
+  background: hsla(227, 100%, 67%, 0.1);
+}
+
+#continue {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: hsl(228, 45%, 44%);
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#continue:hover {
+  background: linear-gradient(rgb(76, 21, 229), hsla(241, 76%, 52%, 0.7));
+}
