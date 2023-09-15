@@ -140,3 +140,11 @@
 #continue:hover {
   background: linear-gradient(rgb(76, 21, 229), hsla(241, 76%, 52%, 0.7));
 }
+
+/* media queries  */
+
+@media screen and (max-width: 325px) {
+  .container {
+    flex-direction: column;
+  }
+}
